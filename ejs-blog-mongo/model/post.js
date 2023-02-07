@@ -12,5 +12,4 @@ let PostSchema = Schema({
 
 })
 
-// Para exportar la info a una db llamada 'Posts'
 module.exports = mongoose.model('posts', PostSchema)
